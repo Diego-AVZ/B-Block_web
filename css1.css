@@ -1,0 +1,133 @@
+@media (max-width:1600px) {     
+    #header {
+        position:fixed;
+        width: 101%;
+        height: 15vh;
+        background-color: rgb(0, 0, 0);
+        left: 0;
+        top:0;
+
+    }
+
+    #logo {
+        position:absolute;
+        width: auto;
+        height: 6vh;
+        margin-left: 25px;
+        margin-top: 15px;
+        filter: invert(100);
+        
+    }
+
+    #menu{
+        position: absolute;
+        color: white;
+        top: 3vh;
+        right: 0;
+        width: 40%;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .ps {
+        position:relative;
+        float: left;
+        margin-left: 2vw;
+        margin-top: 3px;
+        font-size: 1.2vw;
+        transition: ease,0.3s ;
+    } .ps:hover{color: #f7d336; cursor: pointer;}
+    
+    #div1 {
+        position: relative;
+        color: white;
+        margin-top: 15vh;
+        margin-left: 0px ;
+        width: 101%;
+        height: 80vh;
+        background-color: rgb(0, 0, 0);
+    }
+
+    #init1{
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 45px;
+        margin-top: 220px;
+        margin-left: 52px;
+        color: #f7d336;
+    }
+
+    #init2{
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 75px;
+        margin-top: 280px;
+        margin-left: 50px;
+    }
+
+    #but1 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 25px;
+        margin-top: 490px;
+        margin-left: 50px;
+        width: 330px;
+        height: 50px;
+        background-color: #f7d336;
+        
+        transition: ease, 0.4s;color
+: black;
+    } #but1:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+    #but2 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 25px;
+        margin-top: 490px;
+        margin-left: 400px;
+        width: 330px;
+        height: 50px;
+        background-color: #f7d336;
+        color: black;
+        transition: ease, 0.4s;
+    } #but2:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+    #but3 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 22px;
+        margin-top: 490px;
+        margin-left: 750px;
+        width: 330px;
+        height: 50px;
+        background-color: #f7d336;
+        color: black;
+        transition: ease, 0.4s;
+    } #but3:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+    #but4 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 25px;
+        margin-top: 490px;
+        margin-left: 1100px;
+        width: 330px;
+        height: 50px;
+        background-color: #f7d336;
+        color: black;
+        transition: ease, 0.4s;
+    } #but4:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+}
