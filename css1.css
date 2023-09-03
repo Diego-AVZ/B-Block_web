@@ -1,4 +1,6 @@
-@media (max-width:1600px) {     
+@media (max-width:1600px) {    
+    
+
     #header {
         position:fixed;
         width: 101%;
@@ -15,18 +17,47 @@
         height: 6vh;
         margin-left: 25px;
         margin-top: 15px;
-        filter: invert(100);
+        filter: invert(0);
         
     }
 
     #menu{
         position: absolute;
         color: white;
-        top: 3vh;
+        top: 4vh;
         right: 0;
         width: 40%;
         height: 30px;
         background-color: rgb(0, 0, 0);
+        
+    }
+
+    #menuBut {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-left: 85%;
+        margin-top: -9px;
+        background-color: #000000;
+        border-style: none;
+        border-radius: 10px;
+        display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    }
+
+    .line {
+        position: relative;
+        width: 90%;
+        height: 1px;
+        background: #f7d336;
+        margin-left: 50%;
+        transform: translate(-50%);
+        border-style: solid;
+        border-color: #f7d336;
+        border-radius: 10%;
+        margin-top: 6px;
     }
 
     .ps {
@@ -36,6 +67,7 @@
         margin-top: 3px;
         font-size: 1.2vw;
         transition: ease,0.3s ;
+        z-index: 9997;
     } .ps:hover{color: #f7d336; cursor: pointer;}
     
     #div1 {
@@ -52,7 +84,7 @@
         position: absolute;
         font-family: sans-serif;
         font-size: 45px;
-        margin-top: 220px;
+        margin-top: 30vh;
         margin-left: 52px;
         color: #f7d336;
     }
@@ -61,8 +93,82 @@
         position: absolute;
         font-family: sans-serif;
         font-size: 75px;
-        margin-top: 280px;
+        margin-top: 38vh;
         margin-left: 50px;
+    }
+
+
+    #init2lit{
+        display: none;
+    }
+
+    @keyframes opacityAnim {
+        0% {opacity: 0%;}
+        100% {opacity: 100%;}
+    }
+
+    #markArt {
+        position: absolute;
+        width: 6vw;
+        height: 54px;
+        background-color: #00000000;
+        border-color: #f7d336;
+        border-bottom-color: #000000;
+        border-style: solid;
+        border-radius: 10px 10px 0px 0px;
+        margin-top: -4px;
+        margin-left: 1.1vw;
+        z-index: 9996;
+        display: none;
+        animation: opacityAnim forwards 1s;
+    }
+
+    #Articulos {
+         position: fixed;
+         width: 90%;
+         height: 230px;
+         background-color: #00000000;
+        border-color: #f7d336;
+        border-style: solid;
+         margin-top: -30px;
+         margin-left: 50%;
+         transform: translateX(-50%);
+         border-radius: 10px;
+         z-index: 9995;
+         display: none;
+         animation: opacityAnim forwards 1s;
+    }
+
+    #markArt2 {
+        position: absolute;
+        width: 7vw;
+        height: 54px;
+        background-color: #00000000;
+        border-color: #f7d336;
+        border-bottom-color: #000000;
+        border-style: solid;
+        border-radius: 10px 10px 0px 0px;
+        margin-top: -4px;
+        margin-left: 8.1vw;
+        z-index: 9996;
+        display: none;
+        animation: opacityAnim forwards 1s;
+    }
+
+    #Divulgacion {
+         position: fixed;
+         width: 90%;
+         height: 230px;
+         background-color: #00000000;
+        border-color: #f7d336;
+        border-style: solid;
+         margin-top: -30px;
+         margin-left: 50%;
+         transform: translateX(-50%);
+         border-radius: 10px;
+         z-index: 9995;
+         display: none;
+         animation: opacityAnim forwards 1s;
     }
 
     #but1 {
@@ -71,10 +177,10 @@
         font-weight: 700;
         border-radius: 1vw;
         border-style: none;
-        font-size: 25px;
-        margin-top: 490px;
-        margin-left: 50px;
-        width: 330px;
+        font-size: 2vw;
+        margin-top: 67vh;
+        margin-left: 3.5vw;
+        width: 21.5vw;
         height: 50px;
         background-color: #f7d336;
         
@@ -88,10 +194,10 @@
         font-weight: 700;
         border-radius: 1vw;
         border-style: none;
-        font-size: 25px;
-        margin-top: 490px;
-        margin-left: 400px;
-        width: 330px;
+        font-size: 2vw;
+        margin-top: 67vh;
+        margin-left: 27vw;
+        width: 21.5vw;
         height: 50px;
         background-color: #f7d336;
         color: black;
@@ -104,10 +210,10 @@
         font-weight: 700;
         border-radius: 1vw;
         border-style: none;
-        font-size: 22px;
-        margin-top: 490px;
-        margin-left: 750px;
-        width: 330px;
+        font-size: 2vw;
+        margin-top: 67vh;
+        margin-left: 50.5vw;
+        width: 21.5vw;
         height: 50px;
         background-color: #f7d336;
         color: black;
@@ -120,10 +226,10 @@
         font-weight: 700;
         border-radius: 1vw;
         border-style: none;
-        font-size: 25px;
-        margin-top: 490px;
-        margin-left: 1100px;
-        width: 330px;
+        font-size: 2vw;
+        margin-top: 67vh;
+        margin-left: 74vw;
+        width: 21.5vw;
         height: 50px;
         background-color: #f7d336;
         color: black;
