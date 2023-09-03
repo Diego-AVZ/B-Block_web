@@ -110,11 +110,8 @@
     #markArt {
         position: absolute;
         width: 6vw;
-        height: 54px;
+        height: 10vh;
         background-color: #00000000;
-        border-color: #f7d336;
-        border-bottom-color: #000000;
-        border-style: solid;
         border-radius: 10px 10px 0px 0px;
         margin-top: -4px;
         margin-left: 1.1vw;
@@ -127,7 +124,7 @@
          position: fixed;
          width: 90%;
          height: 230px;
-         background-color: #00000000;
+         background-color: #000000;
         border-color: #f7d336;
         border-style: solid;
          margin-top: -30px;
@@ -144,9 +141,7 @@
         width: 7vw;
         height: 54px;
         background-color: #00000000;
-        border-color: #f7d336;
-        border-bottom-color: #000000;
-        border-style: solid;
+        border-style: none;
         border-radius: 10px 10px 0px 0px;
         margin-top: -4px;
         margin-left: 8.1vw;
