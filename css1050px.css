@@ -1,0 +1,110 @@
+@media (max-width:1050px) {    
+    
+
+    #menu{
+        position: absolute;
+        color: white;
+        top: 3vh;
+        right: 0;
+        width: 40%;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+        
+    }
+    
+
+    #init1{
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 50px ;
+        margin-top: 220px;
+        margin-left: 3.5vw;
+        color: #f7d336;
+    }
+
+    #init2{
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 65px;
+        margin-top: 280px;
+        margin-left: 3.5vw;
+    }
+
+
+    #init2lit{
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 32px;
+        margin-top: 100px;
+        margin-left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+        display: none;
+    }
+
+    #but1 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 2vw;
+        margin-top: 490px;
+        margin-left: 3.5vw;
+        width: 21.5vw;
+        height: 50px;
+        background-color: #f7d336;
+        
+        transition: ease, 0.4s;color
+: black;
+    } #but1:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+    #but2 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 2vw;
+        margin-top: 490px;
+        margin-left: 27vw;
+        width: 21.5vw;
+        height: 50px;
+        background-color: #f7d336;
+        color: black;
+        transition: ease, 0.4s;
+    } #but2:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+    #but3 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 2vw;
+        margin-top: 490px;
+        margin-left: 50.5vw;
+        width: 21.5vw;
+        height: 50px;
+        background-color: #f7d336;
+        color: black;
+        transition: ease, 0.4s;
+    } #but3:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+    #but4 {
+        position: absolute;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 1vw;
+        border-style: none;
+        font-size: 2vw;
+        margin-top: 490px;
+        margin-left: 74vw;
+        width: 21.5vw;
+        height: 50px;
+        background-color: #f7d336;
+        color: black;
+        transition: ease, 0.4s;
+    } #but4:hover{cursor: pointer; background-color: #f8d952; rotate: -2deg;}
+
+}
