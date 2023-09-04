@@ -78,3 +78,34 @@ Divulgacion.addEventListener("mouseout", function () {
   markArt2.style.display = "none";
   ps2.style.color = "white";
 });
+
+
+//______________________________________________________________________
+
+var tradImgY = document.getElementById("tradImgY");
+var tradImgB = document.getElementById("tradImgB");
+var AirImgY = document.getElementById("AirImgY");
+var AirImgB = document.getElementById("AirImgB");
+var art2 = document.getElementById("art2");
+var art3 = document.getElementById("art3");
+
+
+art2.addEventListener("mouseover", function(){
+  tradImgB.style.display = "block";
+  tradImgY.style.display = "none";
+})
+
+art2.addEventListener("mouseout", function () {
+  tradImgB.style.display = "none";
+  tradImgY.style.display = "block";
+});
+
+art3.addEventListener("mouseover", function () {
+  AirImgB.style.display = "block";
+  AirImgY.style.display = "none";
+});
+
+art3.addEventListener("mouseout", function () {
+  AirImgB.style.display = "none";
+  AirImgY.style.display = "block";
+});
